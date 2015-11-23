@@ -18,7 +18,7 @@ This demo serves as an entry point for developers wanting to integrate the Itemp
 2. Edit the file `config.php`
   1. Enter the name of your application / website URL at `ITEMPLATFORM_APPLICATION_NAME`, such as e.g. `MyWebsite.com`.
   2. Enter your Itemplatform account ID at `ITEMPLATFORM_ACCOUNT_ID`. Your can get your ID from the [Itemplatform settings page](https://www.itemplatform.com/en/settings/).
-  3. [Create a new webhook](https://my.webmini.com/en/user/apihooks/) for the `Item(s) Received` event and enter its secret at `ITEMPLATFORM_WEBHOOK_SECRET`.
+  3. [Create a new webhook](https://my.webmini.com/en/user/apihooks/) for the `Item(s) Received` event. Use the absolute URL to `webhook.php` as the webhook URL, e.g. `https://yourwebsite.com/webhook.php`. Once you added the webhook, enter its secret at `ITEMPLATFORM_WEBHOOK_SECRET`.
   4. [Create a new Personal API Token](https://my.webmini.com/en/user/apikeys/), enter its username at `ITEMPLATFORM_PERSONAL_TOKEN_USERNAME` and its secret at `ITEMPLATFORM_PERSONAL_TOKEN_SECRET`.
 3. Open the `index.php` page in your webbrowser to test the demo. *Please note that you need two different Itemplatform accounts for this demo to work: one account that you automate using the API, and one "personal" account that you can use for testing.*
 
