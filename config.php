@@ -17,7 +17,6 @@
 
 // All API calls are required to have an User-Agent thet identifies your application.
 // This can be your website URL, your email address, or something similar.
-// http://www.itemplatform.com/en/inventory/
 
 define(
 	'ITEMPLATFORM_APPLICATION_NAME',
@@ -32,7 +31,7 @@ define(
 
 // In order to make API calls regarding items in your account, your application needs
 // to know your account ID. You can find your account ID here:
-// http://www.itemplatform.com/en/settings/
+// https://www.itemplatform.com/en/settings/
 
 define(
 	'ITEMPLATFORM_ACCOUNT_ID',
