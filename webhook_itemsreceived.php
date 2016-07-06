@@ -1,7 +1,8 @@
 ﻿<?php
 
 /**
- * This is a demonstration of how a webhook from Itemplatform could be processed.
+ * This is a demonstration of how the webhook from Itemplatform could be processed
+ * when receiving items.
  * We keep things very simple here and just immediately send back all the items we
  * receive. In your application, you probably will do something more elaborate
  * with the received items, but this demo shows all relevant parts.
